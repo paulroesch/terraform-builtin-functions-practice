@@ -3,6 +3,6 @@ locals {
 }
 
 output "split" {
-  value = split(" ",local.c)
+  value = split(" ", local.c)
 }
 

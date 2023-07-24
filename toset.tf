@@ -3,6 +3,6 @@ locals {
 }
 
 output "toset" {
-  value = local.toset_var
+  value       = local.toset_var
   description = "toset orders items and make them unique inside the list"
 }
